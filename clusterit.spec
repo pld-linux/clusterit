@@ -1,10 +1,10 @@
 Summary:	Collection of clustering tools
-Summary(pl):	Kolekcja narzêdzi pomocnych przy tworzniu klastrów
+Summary(pl):	Kolekcja narzêdzi pomocnych przy tworzeniu klastrów
 Name:		clusterit
 Version:	2.3
 Release:	1
 License:	GPL v2
-Group:		Development
+Group:		Applications/Shells	
 Source0:	http://www.garbled.net/download/%{name}-%{version}.tar.gz
 # Source0-md5:	f044f524d93b8644183b3847ca9a0752
 URL:		http://www.garbled.net/clusterit.html
