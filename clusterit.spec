@@ -19,6 +19,16 @@ rsh, parallel copy, parallel virtual xterminals (xterms), and job
 scheduling facilities for performing parallel compiling. It also has
 programs to allow barrier syncing in shell scripts.
 
+%description -l pl
+ClusterIt to zbiór oprogramowania umo¿liwiaj±cego ³atwe zarz±dzanie
+du¿ymi grupami maszyn. Nie dostarcza ¶rodowiska do programowania
+równoleg³ego, lecz ma s³u¿yæ do zarz±dzania takowym albo po prostu do
+zarz±dzania du¿ymi farmami serwerów. Ma takie cechy jak równoleg³e
+rsh, równoleg³e kopiowanie, równoleg³e wirtualne xterminale (xtermy)
+oraz u³atwienia do szeregowania zadañ w celu przeprowadzania
+równoleg³ej kompilacji. Ma tak¿e programy umo¿liwiaj±ce synchronizacjê
+w skryptach pow³oki.
+
 %prep
 %setup -q
 
@@ -40,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGES README README-DVT TODO
 %attr(755,root,root) %{_bindir}/*
-%{_mandir}/*
+%{_mandir}/man*/*
