@@ -1,5 +1,5 @@
 Summary:	Collection of clustering tools
-Summary(pl):	Kolekcja narzêdzi pomocnych przy tworzeniu klastrów
+Summary(pl.UTF-8):   Kolekcja narzÄ™dzi pomocnych przy tworzeniu klastrÃ³w
 Name:		clusterit
 Version:	2.4
 Release:	1
@@ -20,15 +20,15 @@ rsh, parallel copy, parallel virtual xterminals (xterms), and job
 scheduling facilities for performing parallel compiling. It also has
 programs to allow barrier syncing in shell scripts.
 
-%description -l pl
-ClusterIt to zbiór oprogramowania umo¿liwiaj±cego ³atwe zarz±dzanie
-du¿ymi grupami maszyn. Nie dostarcza ¶rodowiska do programowania
-równoleg³ego, lecz ma s³u¿yæ do zarz±dzania takowym albo po prostu do
-zarz±dzania du¿ymi farmami serwerów. Ma takie cechy jak równoleg³e
-rsh, równoleg³e kopiowanie, równoleg³e wirtualne xterminale (xtermy)
-oraz u³atwienia do szeregowania zadañ w celu przeprowadzania
-równoleg³ej kompilacji. Ma tak¿e programy umo¿liwiaj±ce synchronizacjê
-w skryptach pow³oki.
+%description -l pl.UTF-8
+ClusterIt to zbiÃ³r oprogramowania umoÅ¼liwiajÄ…cego Å‚atwe zarzÄ…dzanie
+duÅ¼ymi grupami maszyn. Nie dostarcza Å›rodowiska do programowania
+rÃ³wnolegÅ‚ego, lecz ma sÅ‚uÅ¼yÄ‡ do zarzÄ…dzania takowym albo po prostu do
+zarzÄ…dzania duÅ¼ymi farmami serwerÃ³w. Ma takie cechy jak rÃ³wnolegÅ‚e
+rsh, rÃ³wnolegÅ‚e kopiowanie, rÃ³wnolegÅ‚e wirtualne xterminale (xtermy)
+oraz uÅ‚atwienia do szeregowania zadaÅ„ w celu przeprowadzania
+rÃ³wnolegÅ‚ej kompilacji. Ma takÅ¼e programy umoÅ¼liwiajÄ…ce synchronizacjÄ™
+w skryptach powÅ‚oki.
 
 %prep
 %setup -q
