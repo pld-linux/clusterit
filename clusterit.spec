@@ -1,5 +1,5 @@
 Summary:	Collection of clustering tools
-Summary(pl.UTF-8):   Kolekcja narzędzi pomocnych przy tworzeniu klastrów
+Summary(pl.UTF-8):	Kolekcja narzędzi pomocnych przy tworzeniu klastrów
 Name:		clusterit
 Version:	2.4
 Release:	1
