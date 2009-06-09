@@ -1,14 +1,14 @@
 Summary:	Collection of clustering tools
 Summary(pl.UTF-8):	Kolekcja narzędzi pomocnych przy tworzeniu klastrów
 Name:		clusterit
-Version:	2.4
+Version:	2.5
 Release:	1
 License:	GPL v2
 Group:		Applications/Shells
 Source0:	http://www.garbled.net/download/%{name}-%{version}.tar.gz
-# Source0-md5:	1401da81bc0b9a0f12a418312168a87f
+# Source0-md5:	f0e772e07122e388de629fb57f7237ab
 URL:		http://www.garbled.net/clusterit.html
-BuildRequires:	XFree86-devel
+BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -36,7 +36,7 @@ w skryptach powłoki.
 %build
 %configure
 %{__make} \
-	CFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
